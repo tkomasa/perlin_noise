@@ -5,7 +5,7 @@ This is a JS repo for messing around with generating terrain using Perlin noise.
 ## What is Perlin noise? (TL;DR Version)
 Perlin noise is effectively random noise with relation. Smooth. This is useful for many things where you need psuedo-randomness, without being fully _random_. Take terrain generation, proabably one of the most common of all use cases. If you used true random generation, it would be a spiky hellscape. With Perlin, you get slopes, valleys, and hills. Congrats you understand this equation now:
 
-![image](https://user-images.githubusercontent.com/70603965/135744584-14fcb46a-6d5f-4bcc-b18e-eddd95c82954.png)
+![image](https://user-images.githubusercontent.com/70603965/135744940-5b7eef66-e70a-4d48-bb58-3eab7962760c.png)
 
 
 ## 1 Dimension:
