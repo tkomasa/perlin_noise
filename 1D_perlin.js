@@ -2,7 +2,7 @@ let inc = 0.01;
 let start = 0;
 
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(1200, 800); // bases random number off size of graph area
 }
 
 function draw() {
@@ -17,7 +17,8 @@ function draw() {
         // let y = random(height);
         let y = noise(xoff) * height;
         vertex(x, y);
-        console.log(y);
+
+        document.getElementById('counter').innerHTML = y;
 
         xoff += inc;
     }

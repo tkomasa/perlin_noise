@@ -1,0 +1,18 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.number {
+    justify-content: left;
+    align-items: center;
+}
+
+.graph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
