@@ -2,10 +2,11 @@ let inc = 0.01;
 let start = 0;
 
 function setup() {
-    createCanvas(1850, 800); // bases random number off size of graph area
+    createCanvas(1850, 700); // bases random number off size of graph area
 }
 
 function draw() {
+    // background color
     background(51);
 
     // make line drawing
