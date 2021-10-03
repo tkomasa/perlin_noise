@@ -9,6 +9,7 @@
 .number {
     justify-content: left;
     align-items: center;
+    color: rgb(197, 197, 197);
 }
 
 .number button a {
