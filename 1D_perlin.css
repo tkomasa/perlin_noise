@@ -3,10 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(51, 51, 51);
 }
 
 .navbar {
-    background: linear-gradient(to right, teal, purple);
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -15,20 +15,23 @@
     font-size: 2rem;
     margin: -10px;
     height: 65px;
+    width: 100.5%;
     top: 0;
-    border-bottom: solid 3px rgb(49, 49, 49);
 }
 
 .navbar__links a {
-    color: white;
+    color: rgb(197, 197, 197);
     text-decoration: none;
-    margin: 0 3rem;
+    padding: 0 3rem;
+    text-shadow: .5px .5px white;
 }
 
 .navbar__links a:hover {
-    color: lightgray;
-    font-weight: bold;
+    color: rgb(241, 241, 241);
     text-decoration: underline;
+    text-decoration-color: rgb(241, 241, 241);
+    text-underline-offset: -43px;
+    transition: all 0.3s ease-in-out;
 }
 
 .main {
