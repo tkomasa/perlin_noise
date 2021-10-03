@@ -12,7 +12,7 @@ var flowfield;
 
 function setup() {
     createCanvas(700, 700);
-    colorMode(HSB, 255);
+    colorMode(RGB, 255);
     cols = floor(width / scl);
     rows = floor(height / scl);
     fr = createP('');
