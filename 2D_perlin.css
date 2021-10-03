@@ -47,23 +47,23 @@
     padding: 1rem 2rem;
 }
 
-.number {
+.button {
     justify-content: left;
     align-items: center;
     color: rgb(197, 197, 197);
     margin: 0;
 }
 
-.number button {
+.button button {
     margin-top: .8rem;
 }
 
-.number button a {
+.button button a {
     color: rgb(197, 197, 197);
     background-color: rgb(51, 51, 51);
 }
 
-.graph {
+.noise_map {
     display: flex;
     justify-content: center;
     align-items: center;
