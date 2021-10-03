@@ -2,13 +2,13 @@ let inc = 0.1;
 var scl = 10;
 var cols, rows;
 
-var fr;
+var fr; //framerate counter
 
 function setup() {
     createCanvas(600, 600);
     cols = floor(width / scl);
     rows = floor(height / scl);
-    fr = createP('')
+    fr = createP('') //framerate counter
 }
 
 function draw() {
@@ -26,5 +26,5 @@ function draw() {
         yoff += inc;
     }
 
-    fr.html(floor(frameRate()));
+    fr.html(floor(frameRate())); //framerate counter
 }
