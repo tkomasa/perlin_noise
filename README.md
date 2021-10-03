@@ -9,11 +9,11 @@ Perlin noise is effectively random noise with relation. Smooth. This is useful f
 
 
 ## 1 Dimension:
-Within one dimension, Perlin noise manifests fairly simply. Imagine a mountain range with a slice taken out, and you have 1D Perlin noise. To be honest, I have no idea if what I have written is mathmatecally accurate Perlin noise in a single dimension, but I assume it's at least close.
+Within one dimension, Perlin noise manifests fairly simply. Imagine a mountain range with a slice taken out, and you have 1D Perlin noise.
 
 ![1d_perlin](https://user-images.githubusercontent.com/70603965/135744706-b8dca4b3-6548-45e5-8f4e-754ec08fbd8e.gif)
 
-As the algorithim generates numbers, it uses the last number generated to seed the next, creating the flow from point to point, while still being randomized at the base level. This will simply increment itself for as long as is it is run.
+As the algorithim generates numbers, it uses the last number generated to seed the next, creating the flow from point to point, while still being randomized at the base level. This will simply increment itself for as long as is it is run, with each and every number being related to the last generated value.
 
 
 ## 2 Dimensions:
