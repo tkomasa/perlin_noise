@@ -1,8 +1,11 @@
 let inc = 0.01;
 let start = 0;
 
+var fr;
+
 function setup() {
     createCanvas(1880, 700); // bases random number off size of graph area
+    fr = createP('')
 }
 
 function draw() {
@@ -29,4 +32,5 @@ function draw() {
     endShape();
 
     start += inc;
+    fr.html(floor(frameRate()));
 }
