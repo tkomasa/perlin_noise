@@ -3,7 +3,7 @@ let inc = 0.01;
 var fr;
 
 function setup() {
-    createCanvas(600, 600);
+    createCanvas(700, 700);
     pixelDensity(1);
     fr = createP('')
 }
