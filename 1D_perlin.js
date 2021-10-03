@@ -17,6 +17,7 @@ function draw() {
         // let y = random(height);
         let y = noise(xoff) * height;
         vertex(x, y);
+        console.log(y);
 
         xoff += inc;
     }
