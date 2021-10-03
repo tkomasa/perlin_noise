@@ -1,6 +1,6 @@
 * {
     font-family: 'Courier New', Courier, monospace;
-    margin: 5px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -19,11 +19,6 @@
     border-bottom: solid 3px rgb(49, 49, 49);
 }
 
-.main {
-    background-color: rgb(51, 51, 51);
-    display: grid;
-}
-
 .navbar__links a {
     color: white;
     text-decoration: none;
@@ -36,14 +31,33 @@
     text-decoration: underline;
 }
 
+.main {
+    background-color: rgb(51, 51, 51);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 120px;
+    z-index: 1;
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
 .number {
     justify-content: left;
     align-items: center;
     color: rgb(197, 197, 197);
+    margin: 0;
+}
+
+.number button {
+    margin-top: .8rem;
 }
 
 .number button a {
     color: rgb(197, 197, 197);
+    background-color: rgb(51, 51, 51);
 }
 
 .graph {

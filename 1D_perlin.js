@@ -2,7 +2,7 @@ let inc = 0.01;
 let start = 0;
 
 function setup() {
-    createCanvas(1850, 700); // bases random number off size of graph area
+    createCanvas(1880, 700); // bases random number off size of graph area
 }
 
 function draw() {
