@@ -16,9 +16,6 @@ function draw() {
         for (let x = 0; x < width; x++) {
             let index = (x + y * width) * 4;
 
-            // complete true random
-            //let r = random(255);
-
             // perlin random
             let r = noise(xoff, yoff) * 255;
 
