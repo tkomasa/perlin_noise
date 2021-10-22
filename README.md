@@ -15,8 +15,7 @@ Within one dimension, Perlin noise manifests fairly simply. Imagine a mountain r
 
 As the algorithim generates numbers, it uses the last number generated to seed the next, creating the flow from point to point, while still being randomized at the base level. This will simply increment itself for as long as is it is run, with each and every number being related to the last generated value.
 
-```python
-let xoff = start;
+```javascript
 for (let x = 0; x < width; x++) {
     stroke(255);
     // let y = random(height);
@@ -35,8 +34,7 @@ Each time a new number is generated, we use that new number, plus the increment,
 ## 2 Dimensions:
 Two dimensions, predictably, ups the complexity. Now the newly generated number must be relative to all the positions around it. For a pixel, that is 8 neighbors. Each new value will relative to its surroundings, not just the last generated value. We do this by simply tracking both X and Y within our generation.
 
-```python
-loadPixels();
+```javascript
 for (let y = 0; y < height; y++) {
     let xoff = 0;
     for (let x = 0; x < width; x++) {
