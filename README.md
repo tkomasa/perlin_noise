@@ -32,7 +32,7 @@ Each time a new number is generated, we use that new number, plus the increment,
 
 
 ## 2 Dimensions:
-Two dimensions, predictably, ups the complexity. Now the newly generated number must be relative to all the positions around it. For a pixel, that is 8 neighbors. Each new value will relative to its surroundings, not just the last generated value. We do this by simply tracking both X and Y within our generation.
+Two dimensions, predictably, increases the complexity. Now the newly generated number must be relative to all the positions around it. For a pixel, that is 8 neighbors. Each new value will relative to its surroundings, not just the last generated value. We do this by simply tracking both X and Y within our generation.
 
 ```javascript
 for (let y = 0; y < height; y++) {
