@@ -28,7 +28,7 @@ for (let x = 0; x < width; x++) {
 }
 ```
 
-Each time a new number is generated, we use that new number, plus the increment, to seed our next number after putting it through `javascript noise()`. This displays in a continuous stream of numbers, flowing from one to the next.
+Each time a new number is generated, we use that new number, plus the increment, to seed our next number after putting it through `noise()`. This displays in a continuous stream of numbers, flowing from one to the next.
 
 
 ## 2 Dimensions:
