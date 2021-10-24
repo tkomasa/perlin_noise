@@ -61,7 +61,7 @@ PICTURE OF 2D PERLIN
 The wonderful thing about this as well is that converting 2D to 3D is incredibly straightforward. The pixel color can be easily translated to a Z value to make a height map. Combined with the already in place X and Y, 3D generation and 2D generation are arguably done the exact same way. 
 
 
-## 2D Perlin Flow:
-
-
 ## 3 Dimensions:
+
+
+## 2D Perlin Flow:
