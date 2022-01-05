@@ -56,6 +56,10 @@ for (let y = 0; y < height; y++) {
 
 For each coordinate on the XY plane, we can generate the color of it using Perlin noise. This gives us a gradient from white to black by generating an RGB value up to 255. Each pixel gets a greyscale value by just tripling the generated number, i.e. n = 125 ----> rgb(125, 125, 125). Doing this gives us that smooth flow between color, in the same way that 1D generation gives us a smooth flow between Y values.
 
-![perlin2dflow](https://user-images.githubusercontent.com/70603965/148177132-5a2955f6-22b8-4544-bef9-da11e025045d.gif)
+![2dperlin](https://user-images.githubusercontent.com/70603965/148177274-b0c9c7ac-78b3-4d33-af3f-b812a1716f02.png)
 
 The wonderful thing about this as well is that converting 2D to 3D is incredibly straightforward. The pixel color can be easily translated to a Z value to make a height map. Combined with the already in place X and Y, 3D generation and 2D generation are arguably done the exact same way. 
+
+We can also do fun things like convert height data to vector data, using the same idea of translating to z-values within 3D generation.
+
+![perlin2dflow](https://user-images.githubusercontent.com/70603965/148177132-5a2955f6-22b8-4544-bef9-da11e025045d.gif)
